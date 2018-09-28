@@ -1,6 +1,6 @@
 # lab-check-in
 
-> A Vue.js project
+> 该系统用于实验室成员打卡
 
 ## Build Setup
 
