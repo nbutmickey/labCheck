@@ -3,7 +3,7 @@ let debug = require("debug")("server:server")
 let http = require("http")
 
 //根据开发环境获取端口并存入Express
-let port = normalizePort(process.env.PORT || '4000')
+let port = normalizePort(process.env.PORT || '3030')
 app.set('port',port)
 
 //创建一个http服务
@@ -13,7 +13,7 @@ let server = http.createServer(app)
 server.listen(port)
 server.on("error",onError)
 server.on("listening",onListening)
-console.log("Express服务器监听4000端口");
+console.log("Express服务器监听3030端口");
 
 function normalizePort(val) {
   let port = parseInt(val,10)
