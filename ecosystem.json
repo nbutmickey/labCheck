@@ -2,7 +2,7 @@
   "apps": [
     {
       "name": "labCheck",
-      "script": "./server/bin/www",
+      "script": "./server/bin/www.js",
       "env": {
         "COMMON_VARIABLE": "true"
       },
