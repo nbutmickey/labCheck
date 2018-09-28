@@ -48,9 +48,9 @@
             stclass: '',
             sno: '',
             basic:{
-              name:'分享会1',
-              topic:'如何入门前端',
-              presenter:'Mickey',
+              name:'',
+              topic:'',
+              presenter:'',
               topicId:''
             }
           }
